@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Build a PC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .sleek-text {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #f8f8f8;
+            text-align: center;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .neon-text {
+            text-shadow: 0 0 5px #0080FF, 0 0 10px #0080FF, 0 0 15px #0080FF;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans pt-16">
+    <nav class="fixed top-0 w-full bg-black bg-opacity-80 p-4 flex justify-center space-x-6 z-10">
+        <a href="home.html" class="text-white hover:text-yellow-400 transition duration-300">Home</a>
+        <a href="images.html" class="text-white hover:text-yellow-400 transition duration-300">Image Gallery</a>
+        <a href="howto.html" class="text-white hover:text-yellow-400 transition duration-300">Guides</a>
+        <a href="deals.html" class="text-white hover:text-yellow-400 transition duration-300">New Deals</a>
+        <a href="poster.html" class="text-white hover:text-yellow-400 transition duration-300">Upcoming Events</a>
+    </nav>
+    
+    <section class="relative h-64 bg-cover bg-center flex items-center justify-center text-center" style="background-image: url('images/image10.jpg');">
+        <div class="overlay"></div>
+        <h1 class="sleek-text relative">PC Hardware Newsletter</h1>
+    </section>
+    
+    <div class="container max-w-4xl mx-auto p-6 text-center">
+        <h2 class="sleek-text mt-6">How to Install a GPU: 7900XTX</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6 text-left">
+            <div>
+                <h3 class="text-xl font-bold">Step 1: Prepare Your Workspace</h3>
+                <p class="text-gray-300">Ensure your workspace is clean and static-free. Gather all necessary tools, including a screwdriver.</p>
+                <h3 class="text-xl font-bold mt-4">Step 2: Open Your Case</h3>
+                <p class="text-gray-300">Remove the side panel of your PC case to access the interior.</p>
+                <h3 class="text-xl font-bold mt-4">Step 3: Remove the Old GPU</h3>
+                <p class="text-gray-300">If you have an existing GPU, unscrew and gently remove it from the PCIe slot.</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold">Step 4: Insert the New GPU</h3>
+                <p class="text-gray-300">Align the 7900XTX with the PCIe slot and gently press it into place until it clicks.</p>
+                <h3 class="text-xl font-bold mt-4">Step 5: Secure the GPU</h3>
+                <p class="text-gray-300">Use screws to secure the GPU to the case. Ensure it is firmly in place.</p>
+                <h3 class="text-xl font-bold mt-4">Step 6: Connect Power Cables</h3>
+                <p class="text-gray-300">Connect the necessary power cables from your PSU to the GPU.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container max-w-4xl mx-auto p-6 text-center">
+        <h2 class="sleek-text mt-6">How to Install a CPU: Ryzen 7 9800X3D</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6 text-left">
+            <div>
+                <h3 class="text-xl font-bold">Step 1: Prepare Your Workspace</h3>
+                <p class="text-gray-300">Ensure your workspace is clean and static-free. Gather all necessary tools, including a screwdriver.</p>
+                <h3 class="text-xl font-bold mt-4">Step 2: Open Your Case</h3>
+                <p class="text-gray-300">Remove the side panel of your PC case to access the interior.</p>
+                <h3 class="text-xl font-bold mt-4">Step 3: Remove the Old CPU</h3>
+                <p class="text-gray-300">If you have an existing CPU, release the retention arm and gently remove it from the socket.</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold">Step 4: Insert the New CPU</h3>
+                <p class="text-gray-300">Align the Ryzen 7 9800X3D with the socket and gently place it into position. Lower the retention arm to secure it.</p>
+                <h3 class="text-xl font-bold mt-4">Step 5: Apply Thermal Paste</h3>
+                <p class="text-gray-300">Apply a small amount of thermal paste to the top of the CPU.</p>
+                <h3 class="text-xl font-bold mt-4">Step 6: Install the CPU Cooler</h3>
+                <p class="text-gray-300">Attach the CPU cooler according to the manufacturer's instructions. Ensure it is firmly in place.</p>
+            </div>
+			
+        </div>
+		
+    </div>
+</body>
+</html>

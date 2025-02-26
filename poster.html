@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Building Guide Event</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .sleek-text {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #f8f8f8;
+            text-align: center;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .neon-text {
+            text-shadow: 0 0 5px #0080FF, 0 0 10px #0080FF, 0 0 15px #0080FF;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans pt-16">
+    <nav class="fixed top-0 w-full bg-black bg-opacity-80 p-4 flex justify-center space-x-6 z-10">
+        <a href="home.html" class="text-white hover:text-yellow-400 transition duration-300">Home</a>
+        <a href="images.html" class="text-white hover:text-yellow-400 transition duration-300">Image Gallery</a>
+        <a href="howto.html" class="text-white hover:text-yellow-400 transition duration-300">Guides</a>
+        <a href="deals.html" class="text-white hover:text-yellow-400 transition duration-300">New Deals</a>
+        <a href="poster.html" class="text-white hover:text-yellow-400 transition duration-300">Upcoming Events</a>
+    </nav>
+    
+    <section class="relative h-64 bg-cover bg-center flex items-center justify-center text-center" style="background-image: url('images/image10.jpg');">
+        <div class="overlay"></div>
+        <h1 class="sleek-text relative">PC Building Guide Event</h1>
+    </section>
+    
+    <div class="container max-w-4xl mx-auto p-6 text-center">
+        <h2 class="sleek-text mt-6">Join Us for a PC Building Guide Event!</h2>
+        <p class="text-lg text-gray-300 mt-4">We are hosting an exciting PC building guide event where you'll learn everything you need to know about building your own PC. The event will take place in Room 999, Cassell Hall on 2/26/3742 at Midnight.</p>
+        
+        <h3 class="text-xl font-bold mt-6">Event Details:</h3>
+        <div class="text-center">
+            <ul class="list-disc list-inside text-gray-300 mt-4 inline-block text-left">
+                <li>Understanding PC components and their functions</li>
+                <li>Step-by-step guide to assembling a PC</li>
+                <li>Tips for cable management and airflow optimization</li>
+                <li>Troubleshooting common issues during the build process</li>
+                <li>QA session with experienced PC builders</li>
+            </ul>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+            <img src="images/Home2.png" alt="PC Building" class="w-full h-64 object-cover rounded-lg">
+            <img src="images/image4.jpg" alt="PC Components" class="w-full h-64 object-cover rounded-lg">
+        </div>
+        
+        <p class="text-lg text-gray-300 mt-6">Price for admission is free for students and $0.50 for non-students.</p>
+        
+        <h3 class="text-xl font-bold mt-6">Contact Information:</h3>
+        <p class="text-gray-300">For more details, please contact us at:</p>
+        <p class="text-gray-300">Email: pcbuildguide@example.com</p>
+        <p class="text-gray-300">Phone: (123) 456-7890</p>
+        
+        <div class="flex justify-center mt-6">
+            <a href="" class="bg-gray-400 text-black px-6 py-3 rounded-lg font-bold transition transform hover:scale-110 hover:bg-gray-500 mb-12">Register Now!</a>
+        </div>
+    </div>
+</body>
+</html>

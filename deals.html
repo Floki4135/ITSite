@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Deals on PC Hardware</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .sleek-text {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #f8f8f8;
+            text-align: center;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .neon-text {
+            text-shadow: 0 0 5px #0080FF, 0 0 10px #0080FF, 0 0 15px #0080FF;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans pt-16">
+    <nav class="fixed top-0 w-full bg-black bg-opacity-80 p-4 flex justify-center space-x-6 z-10">
+        <a href="home.html" class="text-white hover:text-yellow-400 transition duration-300">Home</a>
+        <a href="images.html" class="text-white hover:text-yellow-400 transition duration-300">Image Gallery</a>
+        <a href="howto.html" class="text-white hover:text-yellow-400 transition duration-300">Guides</a>
+        <a href="deals.html" class="text-white hover:text-yellow-400 transition duration-300">New Deals</a>
+        <a href="poster.html" class="text-white hover:text-yellow-400 transition duration-300">Upcoming Events</a>
+    </nav>
+    
+    <section class="relative h-64 bg-cover bg-center flex items-center justify-center text-center" style="background-image: url('images/image10.jpg');">
+        <div class="overlay"></div>
+        <h1 class="sleek-text relative">Great Deals on PC Hardware</h1>
+    </section>
+    
+    <div class="container max-w-4xl mx-auto p-6 text-center">
+        <h2 class="sleek-text mt-6">Check Out These Amazing Deals!</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6 text-left">
+            <div class="bg-gray-800 p-4 rounded-lg">
+                <h3 class="text-xl font-bold">AMD Ryzen 7 5800XT</h3>
+                <p class="text-gray-300">Original Price: $249.00</p>
+                <p class="text-yellow-400">Discounted Price: $199.00</p>
+                <p class="text-gray-300">Save $50 on this powerful 8-core, 16-thread processor with a max boost clock of 4.8 GHz.</p>
+                <a href="https://www.bestbuy.com/site/amd-ryzen-7-5800xt-8-core-processor-discrete-graphics-8-core-16-thread-105w-am4-36mb-silver/6589129.p?skuId=6589129" target="_blank" class="text-blue-400 hover:underline">View Deal</a>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-lg">
+                <h3 class="text-xl font-bold">AMD Ryzen 9 7900X</h3>
+                <p class="text-gray-300">Original Price: $549.00</p>
+                <p class="text-yellow-400">Discounted Price: $499.00</p>
+                <p class="text-gray-300">Save $50 on this 12-core, 24-thread processor with a max boost clock of 5.6 GHz.</p>
+                <a href="https://www.bestbuy.com/site/amd-ryzen-9-7900x-12-core-24-thread-4-7-ghz-5-6-ghz-max-boost-socket-am5-desktop-processor-silver/6519473.p?skuId=6519473" target="_blank" class="text-blue-400 hover:underline">View Deal</a>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-lg">
+                <h3 class="text-xl font-bold">AMD Ryzen 9 7950X</h3>
+                <p class="text-gray-300">Original Price: $699.00</p>
+                <p class="text-yellow-400">Discounted Price: $649.00</p>
+                <p class="text-gray-300">Save $50 on this 16-core, 32-thread processor with a max boost clock of 5.7 GHz.</p>
+                <a href="https://www.bestbuy.com/site/amd-ryzen-9-7950x-16-core-32-thread-4-5ghz-5-7-ghz-max-boost-socket-am5-desktop-processor-silver/6519470.p?skuId=6519470" target="_blank" class="text-blue-400 hover:underline">View Deal</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
